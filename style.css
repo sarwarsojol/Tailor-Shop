@@ -1,0 +1,6 @@
+/* Adjust the size of gender box */
+#gender{
+    display: inline;
+    width: 100px; 
+    height: 40px;
+}
