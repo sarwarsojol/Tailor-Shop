@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <title>Coat</title>
 </head>
-<body>
+<body class="bg-dark">
     <div class="container-fluid">
 
         <!-- Gender Input -->
 
         <form>
-            <div class="row">
+            <div class="row text-light">
                 <div class="col-3 p-3">
                     <div class="form-group">
                         <label for="gender">Gender:</label>
@@ -45,8 +45,45 @@
             </div>
         </form>
 
-        <div class="row">
+        <!-- Product Information -->
 
+        <div class="row text-light">
+            <div class="col-1">
+                <div class="mb-3">
+                    <label for="qty" class="form-label">Qty:</label>
+                    <input type="text" class="form-control" id="qty" placeholder="Quantity">
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="mb-3">
+                    <label for="rate" class="form-label">Rate:</label>
+                    <input type="text" class="form-control" id="rate" placeholder="Rate">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="mb-3">
+                    <label for="others" class="form-label">Others:</label>
+                    <input type="text" class="form-control" id="others" placeholder="Others">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="mb-3">
+                    <label for="amount" class="form-label">Amount:</label>
+                    <input type="text" class="form-control" id="amount" placeholder="Amount">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="mb-3">
+                    <label for="item" class="form-label">Item:</label>
+                    <input type="text" class="form-control" id="item" placeholder="Item">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="mb-3">
+                    <label for="gourp_name" class="form-label">Gourp Name:</label>
+                    <input type="text" class="form-control" id="gourp_name" placeholder="Gourp Name">
+                </div>
+            </div>
         </div>
 
     <!-- Bootstrap JS CDN -->
